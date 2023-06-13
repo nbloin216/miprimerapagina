@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style3.css" <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-nav">
+        <nav class="navbar" role="navigation">
+            <a href="index.html" class="brand">Mi página web</a>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="services.html">Servicios</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </div>
+    <div class="container">
+        <h1>Bienvenidos a mi primer website</h1>
+        <h1>Contacto</h1>
+        <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
+        <form>
+            <!-- Campo para Nombre -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <!-- Campo para Correo -->
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Campo para Selección de País -->
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="argentina">Argentina</option>
+                <option value="chile">Chile</option>
+                <option value="brazil">Brazil</option>
+                <option value="mexico">Mexico</option>
+            </select>
+
+            <!-- Campo para Mensaje -->
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+            <!-- Botón de envío -->
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
